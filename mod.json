@@ -8,7 +8,7 @@
 	},
 	"id": "xavvvv.upresume",
 	"name": "UpResume",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "xavvvv",
-	"description": "Allows you to use the up arrow on the pause menu to resume the game."
+	"description": "Use the up arrow to resume the game."
 }
