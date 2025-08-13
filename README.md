@@ -1,5 +1,5 @@
 # UpResume
-This is where she makes a mod.
+Tiny Geode mod to allow using the up arrow to resume the game while on the pause menu.
 
 <img src="logo.png" width="150" alt="the mod's logo" />
 
