@@ -1,0 +1,14 @@
+{
+	"geode": "4.7.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "xavvvv.upresume",
+	"name": "UpResume",
+	"version": "v1.0.0",
+	"developer": "xavvvv",
+	"description": "Allows you to use the up arrow on the pause menu to resume the game."
+}
