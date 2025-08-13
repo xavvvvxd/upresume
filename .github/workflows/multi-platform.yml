@@ -51,3 +51,14 @@ jobs:
         with:
           name: Build Output
           path: ${{ steps.build.outputs.build-output }}
+    
+      - uses: softprops/action-gh-release@v1
+        with:
+          tag_name: prerelease-${{ github.run_number }}
+          name: "Prerelease ${{ github.run_number }}"
+          body: "Automated prerelease from CI"
+          draft: true
+          prerelease: true
+          files: ${{ steps.build.outputs.build-output }}/*.geode
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
